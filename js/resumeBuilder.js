@@ -13,7 +13,7 @@ var bio = {
         "location": "San Francisco"
   	},
     "welcomeMessage": "Hey this is my Online Resume",
-  	"biopic": "http://3.bp.blogspot.com/_TuXrglsA3wc/THAHOCJkK7I/AAAAAAAAAAg/2sfcuTWgg0Y/s1600/250px-Luffy.png",
+  	"biopic": "images/biopic.png",
   	"skills": ["Java", "Spring", "MySQL", "JavaScript"],
     "display": function() {
         $("#header").prepend(HTMLbioPic.replaceData(this.biopic));
@@ -117,14 +117,14 @@ var bio = {
           "title": "PINTS",
           "dates": "2016",
           "description": "Partner Integration System",
-          "images": ["https://media3.giphy.com/media/sAC6e7EzVH7LG/200_s.gif", 
-                    "http://www.wall321.com/thumbnails/detail/20131030/one%20piece%20anime%20straw%20hat%20monkey%20d%20luffy_www.wall321.com_70.jpg"]
+          "images": ["images/project1-1.gif", 
+                    "images/project1-2.jpg"]
         },
         {
           "title": "SellerOnboarding",
           "dates": "Feb 2015 - Present",
           "description": "Back end services for Sellers to onboard into walmart system",
-          "images": ["http://static8.comicvine.com/uploads/scale_small/4/47703/2959770-straw+hat.jpg"]
+          "images": ["images/project2-1.jpg"]
         }
     ],
     "display": function() {
